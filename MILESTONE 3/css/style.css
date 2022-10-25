@@ -3,3 +3,14 @@
 .cp_row{
     font-family: 'Fuzzy Bubbles', cursive;
 }
+
+.cp_card{
+    transition: 0.5s all;
+    filter: grayscale(.8);
+}
+
+.cp_card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
