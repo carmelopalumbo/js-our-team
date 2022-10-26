@@ -59,7 +59,7 @@ for(let member of team){
 //stampo tutto il team sotto forma di card
 for(let member of team){
     const tempMember = `<div class="col-4 mb-5">
-    <div class="card cp_card" style="width: 18rem;">
+    <div class="card cp_card m-auto" style="width: 18rem;">
         <img src="img/${member.image}" class="card-img-top" alt="${member.name}">
         <div class="card-body">
           <p class="card-text fw-bold fs-5">${member.name}</p>
